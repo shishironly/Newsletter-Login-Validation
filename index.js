@@ -33,4 +33,7 @@ dismiss.addEventListener("click",()=>{
     popupContainerEl.classList.add("active");
     containerEl.classList.remove("active");
     mail.value="";
+    inputError.classList.remove("inputError");
+    error.innerHTML="";
+
 })
